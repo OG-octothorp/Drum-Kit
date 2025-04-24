@@ -7,7 +7,7 @@ $(".drum").each(function () {
 });
 
 
-$(document).on("keydown", (event) => {
+$(document).one("keydown", (event) => {
     makeSound(event.key);
     buttonAnimation(event.key);
 });
