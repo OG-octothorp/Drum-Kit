@@ -55,11 +55,11 @@ function makeSound (key) {
 }
 
 function buttonAnimation(currentKey) {
-    var $activeButton = $("." + currentKey);
-    $activeButton.addClass("pressed");
+    var activeButton = $("." + currentKey);
+    activeButton.addClass("pressed");
     
     setTimeout(function () {
-      $activeButton.removeClass("pressed");
+      activeButton.removeClass("pressed");
     }, 100);
   }
   
